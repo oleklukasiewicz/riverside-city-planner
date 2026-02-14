@@ -1,0 +1,12 @@
+{
+  "name": "marker",
+  "type": "location",
+  "coords": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "icon": "marker",
+  "iconPath": "assets/markers/marker.png",
+  "label": "Marker"
+}

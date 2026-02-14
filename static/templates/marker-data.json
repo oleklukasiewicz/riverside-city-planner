@@ -1,0 +1,42 @@
+{
+  "name": "station2",
+  "label": "Station",
+  "type": "metro",
+  "description": "A station is a location where players can interact with various services, such as purchasing items, repairing vehicles, or accessing storage. Stations are often found in cities and towns, and they serve as hubs for player activity.",
+  "images": [
+    "assets/stations/station1.png",
+    "assets/stations/station2.png",
+    "assets/stations/station3.png"
+  ],
+  "data": {
+    "metro": {
+      "code": "A2",
+      "line": "Red Line",
+      "next": "station1",
+      "previous": "station3",
+      "transfer": ["station4", "rails1"],
+      "entrances": [
+        {
+          "name": "entrance1",
+          "coords": {
+            "x": 100,
+            "y": 200,
+            "z": 0
+          }
+        },
+        {
+          "name": "entrance2",
+          "coords": {
+            "x": 150,
+            "y": 250,
+            "z": 0
+          }
+        }
+      ],
+      "platformType": "island"
+    },
+    "farm": {
+      "type": "wheat"
+    }
+  }
+}
